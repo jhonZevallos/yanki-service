@@ -15,7 +15,6 @@ import reactor.core.publisher.Mono;
 @Service
 @RequiredArgsConstructor
 @Slf4j
-@ConditionalOnProperty(name = "cache.enabled", havingValue = "false")
 public class YankiServiceImpl implements YankiService {
 
 	@Autowired
